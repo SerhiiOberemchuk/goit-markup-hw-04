@@ -46,7 +46,16 @@
         <section class="title-main section">
             <div class="title container">
                 <h1 class="title-name">Effective Solutions for Your Business</h1>
-                <button type="button" class="title-button">Order Service</button>
+                <button data-modal-open type="button" class="title-button">Order Service</button>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, sit nobis velit, a odio
+                            quod quaerat
+                            enim ab ad quibusdam cumque? Amet saepe delectus laborum quae possimus eos sit voluptatem.
+                        </p>
+                        <button data-modal-close>close</button>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -57,7 +66,7 @@
                 <ul class="advantages-list list">
                     <li class="item">
                         <div class="icon-box">
-                            <svg class="icon">
+                            <svg class="icon" width="64" height="64">
                                 <use href="/images/icon.svg#icon-antenna"></use>
                             </svg>
                         </div>
@@ -389,6 +398,7 @@
             </div>
         </div>
     </footer>
+
     <script src="./js/modal.js"></script>
 </body>
 
